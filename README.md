@@ -43,20 +43,24 @@ Data Binding to RecyclerView:
 
 The parsed list of articles is passed to the RecyclerView.Adapter, which dynamically creates and binds ViewHolder objects for each news item.
 The RecyclerView efficiently handles large datasets, displaying only visible items and recycling off-screen views.
-Image Loading with Picasso: ![Third](https://github.com/user-attachments/assets/1c2ab0af-f482-42ce-911c-1c3244797d3e)
-
+Image Loading with Picasso:<p align="center">
+  <img src="https://github.com/user-attachments/assets/1c2ab0af-f482-42ce-911c-1c3244797d3e" alt="Third Screenshot" width="280"/>
+</p>
 
 For each news item, the app fetches and loads the article's thumbnail image from the URL provided in the JSON response.
 Picasso handles caching and ensures smooth scrolling without lag, even with multiple images being loaded.
-Detail View Navigation: ![Second](https://github.com/user-attachments/assets/2700f8be-a912-43e4-8d08-11905ef87696)
-
+Detail View Navigation:<p align="center">
+  <img src="https://github.com/user-attachments/assets/2700f8be-a912-43e4-8d08-11905ef87696" alt="Second Screenshot" width="280"/>
+</p>
 When a user clicks on a news item, the app passes the article details (e.g., title, description, image URL) to a new activity or fragment.
 This detail view shows the full article and a button to open the original news source in a WebView.
 Category Filtering:
 
 The app dynamically updates the API request URL when the user selects a different category. The backend fetches news for the selected category and refreshes the RecyclerView with the updated data.
 How the App Works (Frontend and Backend)
-Home Screen: ![First](https://github.com/user-attachments/assets/c1bc4a01-6401-434d-9f54-7bf6e3f910b9)
+Home Screen: <p align="center">
+  <img src="https://github.com/user-attachments/assets/c1bc4a01-6401-434d-9f54-7bf6e3f910b9" alt="First Screenshot" width="280"/>
+</p>
 
 
 When the app starts, a default API request fetches top news articles for the "General" category.
